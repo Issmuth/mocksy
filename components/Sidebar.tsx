@@ -6,7 +6,7 @@ import { LayoutDashboard, PlusCircle, BarChart2, User } from 'lucide-react';
 export function Sidebar() {
   const pathname = usePathname();
   const navItems = [
-    { icon: LayoutDashboard, href: '/' },
+    { icon: LayoutDashboard, href: '/dashboard' },
     { icon: PlusCircle, href: '/setup' },
     { icon: BarChart2, href: '/analysis' },
     { icon: User, href: '/profile' },

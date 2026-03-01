@@ -14,7 +14,7 @@ export function Header() {
         <button className="md:hidden size-12 rounded-full bg-white flex items-center justify-center text-slate-500 shadow-sm">
           <Menu size={20} />
         </button>
-        <Link href="/" className="bg-slate-900 text-white px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:shadow-lg transition-shadow">
+        <Link href="/dashboard" className="bg-slate-900 text-white px-6 py-3 rounded-full flex items-center gap-2 shadow-md hover:shadow-lg transition-shadow">
           <div className="size-3 rounded-full bg-primary"></div>
           <h2 className="text-lg font-bold tracking-tight font-display">mocksy</h2>
         </Link>
