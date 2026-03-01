@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-primary: #FF6B00;
+  --color-background: #EAEBEF;
+  --color-surface: #FFFFFF;
+  --font-display: var(--font-space-grotesk);
+  --font-body: var(--font-noto-sans);
+  --font-serif: var(--font-cormorant);
+}
+
+body {
+  @apply bg-background text-slate-900 font-body antialiased;
+}
